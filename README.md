@@ -1,18 +1,18 @@
-# remark-comment
+# remark-comment-o
 
-Parse HTML style comments as a different node type so it can be ignored during
+Parse HTML style comments(and multiline comment) as a different node type so it can be ignored during
 serialization.
 
 ## Install and usage
 
 ```sh
-npm install remark-comment
+npm install remark-comment-o
 ```
 
 ```js
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
-import remarkComment from 'remark-comment'
+import remarkComment from 'remark-comment-o'
 
 unified().use(remarkParse).use(remarkComment)
 ```
@@ -27,7 +27,7 @@ import {
   commentHtml,
   commentFromMarkdown,
   commentToMarkdown,
-} from 'remark-comment'
+} from 'remark-comment-o'
 ```
 
 **Options:**
@@ -49,6 +49,10 @@ The `remarkComment` and `commentFromMarkdown` functions take the options:
 # This file
 
 <!-- contains a comment -->
+
+<!--
+contains a multiline comment
+-->
 
 And a paragraph
 ```

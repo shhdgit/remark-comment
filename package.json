@@ -1,7 +1,7 @@
 {
-  "name": "remark-comment",
-  "version": "1.0.0",
-  "description": "Remark plugin to support comments",
+  "name": "remark-comment-o",
+  "version": "1.0.1",
+  "description": "Remark plugin to support comments(and multiline comments)",
   "author": "Lee Byron <lee@leebyron.com> (https://leebyron.com)",
   "license": "MIT",
   "keywords": [
